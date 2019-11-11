@@ -1,0 +1,322 @@
+/* ar */
+/* body {
+    font-family: sans-serif; */
+/* background-image: linear-gradient(white, rgb(165, 165, 165));  */
+/* margin: 0;
+}
+
+#header {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 6px 2px rgb(204, 204, 204);
+    height: 20px;
+}
+
+#body {
+    padding: 20px;
+    background-color: black;
+} */
+
+/* jh */
+.tabel7 {
+    padding: 10px;
+}
+
+/* ary */
+body {
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+.divider {
+    padding: 0px 0px;
+}
+
+.logo {
+    color: white;
+}
+
+
+
+.logo>a>h3:hover {
+    color: magenta;
+}
+
+.logo>.navbar-brand>img {
+    float: left;
+    width: 70px;
+}
+
+#main {
+    border-bottom: 1px solid;
+}
+
+.navbar>a {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 2px;
+}
+
+.navbar#navbar-header>a {
+    align-content: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.navbar#navbar-header>a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.header {
+    align-items: center;
+    text-align: center;
+}
+
+.profile img {
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+
+.search {
+    width: 50%;
+    margin: auto;
+    position: center;
+    /* height: 60px;*/
+    /*  border-radius: 30px;*/
+    /*    padding: 10px;*/
+}
+
+.sidebar>#side-nav>ul>li {
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebar>#side-nav>ul>li>a {
+    color: black;
+}
+
+.sidebar>#side-nav>ul>li>a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+
+
+.jumbotron {
+    background-image: url("../media/rog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+}
+
+.btn {
+    float: right;
+    border-width: 1px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    margin-top: 30px;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.navfoot {
+    padding-bottom: 10px;
+}
+
+.navfoot>a {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+
+}
+
+.footer>hr {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-color: white;
+}
+
+
+#main {
+    border-bottom: 1px solid;
+}
+
+.navbar>a {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 2px;
+}
+
+.navbar#navbar-header>a {
+    align-content: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.navbar#navbar-header>a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.header {
+    align-items: center;
+    text-align: center;
+}
+
+.profile>img {
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+
+.search {
+    width: 50%;
+    margin: auto;
+    position: center;
+    /* height: 60px;*/
+    /*  border-radius: 30px;*/
+    /*    padding: 10px;*/
+}
+
+.sidebar>#side-nav>ul>li {
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebar>#side-nav>ul>li>a {
+    color: black;
+}
+
+.sidebar>#side-nav>ul>li>a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+
+.jumbotron {
+    background-image: url("../media/rog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+}
+
+.btn {
+    float: right;
+    border-width: 1px;
+}
+
+.footers {
+    left: 0;
+    bottom: 0;
+    margin-top: 30px;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+    background-color: #1f1f1f;
+    text-decoration: none;
+}
+
+.navfoot {
+    padding-bottom: 10px;
+}
+
+.navfoot>a {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+
+}
+
+.footer>hr {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-color: white;
+}
+
+.harga {
+    color: magenta;
+}
+
+#lat {
+    color: blue;
+}
+
+.last-update {
+    font-size: 12px;
+    color: grey;
+}
+
+.detail {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#barang img{
+    width: 18vw;
+	padding-right:20px;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+#banner{
+    width: 79vw;
+}
+
+#team{
+	padding:0vh 0px;
+}
+
+.face{
+	display: block;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	width:170px;
+	height:170px;
+	border: 5px solid #E5E5E5;
+	box-shadow: 0 0 0px 5px #664229;
+	overflow:hidden;
+}
+
+
+.desc {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.desc h3{
+	margin-top:12px;
+	margin-bottom:8px;
+	font-variant:small-caps;
+}
+
+#logo-name{
+    padding-top: 10px;
+    float: left;
+    color: #0090FF;
+	font-family: "Arial Black","Arial";
+	font-style: bold;
+	font-size:25pt;
+}

@@ -1,0 +1,175 @@
+body{
+    background-color: #1C1B29;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-family: 'Squada One', Arial, Helvetica, sans-serif;
+}
+
+#logout{
+    color: white;
+    font-size: 15px;
+    font-style: oblique;
+    padding: 15px;
+    overflow: hidden;
+}
+
+#logout:hover{
+    background-color: #ffffff50;
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100vw;
+    position: fixed;
+}
+
+.container{
+    margin:0px;
+}
+
+.sidebar-sticky{
+    height: 100%;
+    width: 15vw;
+    padding: 12vh 2vh;
+    z-index: 1;
+    top:0;
+    background-color: #131B28;
+    color: white;
+    position: fixed;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+.sidebar-sticky a{
+    margin: auto;
+    padding: 0.25em 0px 0.25em 10px;
+    font-size: 24px;
+    display:block;
+    color: #fafafa;
+    text-decoration: none;
+    text-align: left;
+}
+
+.sidebar-sticky a:hover{
+    background-color: #D81131;
+}
+
+#content{
+    margin: 80px 16vw 5px;
+    color: lightgray;
+    font-size: 20px;
+
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+#content>h1{
+    margin-left: -15px;
+    margin-bottom: 20px;
+}
+
+.infobox{
+    width: 15vw;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #DF1233;
+}
+
+table{
+    color: white;
+    background-color: #131B28;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th, td{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: left;
+    border: 0px white solid;
+}
+
+tr:nth-child(even) {background-color: #2C1B29;}
+
+.no{
+    width:5vw;
+}
+
+.id{
+    width:3vw;
+}
+
+.nama{
+    width:17vw;
+}
+
+.detail{
+    width: 17vw;
+}
+
+.bq{
+    width: 10px;
+}
+
+.images{
+    width: 5vw;
+}
+
+.btn-light{
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.ops{
+    border: none;
+    border-left: 2px white solid;
+    text-align: left;
+}
+
+.ops i{
+    margin:5px;
+}
+
+#detailtable td, tr{
+    border: none;
+}
+
+#detailtable td{
+    text-align: left;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

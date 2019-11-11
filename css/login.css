@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    /*background-image: linear-gradient(to right, black, #000022, #00003a, #000022, black);*/
+}
+
+#uiform{
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    width: 450px;
+    height: 400px;
+    padding: 15px;
+
+    animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -o-animation: fadein 2.5s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#uiform img{
+    display: block;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+#uiform>h1{
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#uiform>p{
+    color: #888888;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#uiform>form{
+    margin: 20px auto;
+}
+
+input[type=text], input[type=password]{
+    display: block;
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
+input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic; 
+}
+
+input[type=submit]{
+    display: block;
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: #7c0000;
+}
+
